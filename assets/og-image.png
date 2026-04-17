@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#020617;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Grid lines -->
+  <line x1="0" y1="210" x2="1200" y2="210" stroke="#1e293b" stroke-width="1"/>
+  <line x1="0" y1="420" x2="1200" y2="420" stroke="#1e293b" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="630" stroke="#1e293b" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="630" stroke="#1e293b" stroke-width="1"/>
+  <!-- Eye illustration -->
+  <ellipse cx="950" cy="315" rx="220" ry="130" stroke="rgba(59,130,246,0.15)" stroke-width="2" fill="none"/>
+  <ellipse cx="950" cy="315" rx="160" ry="95" stroke="rgba(59,130,246,0.12)" stroke-width="1.5" fill="none"/>
+  <circle cx="950" cy="315" r="65" stroke="rgba(59,130,246,0.2)" stroke-width="2" fill="rgba(59,130,246,0.04)"/>
+  <circle cx="950" cy="315" r="35" fill="rgba(59,130,246,0.1)" stroke="rgba(59,130,246,0.35)" stroke-width="2"/>
+  <circle cx="950" cy="315" r="14" fill="rgba(59,130,246,0.6)"/>
+  <circle cx="958" cy="307" r="5" fill="white" opacity="0.5"/>
+  <!-- Blue accent bar -->
+  <rect x="80" y="195" width="5" height="110" rx="2.5" fill="url(#blue)"/>
+  <!-- Business name -->
+  <text x="108" y="252" fill="white" font-family="Georgia, serif" font-size="52" font-weight="700" letter-spacing="-1">Hawk Eye Detailing</text>
+  <!-- Tagline -->
+  <text x="110" y="295" fill="#94a3b8" font-family="Arial, sans-serif" font-size="24" letter-spacing="2">PREMIUM MOBILE DETAILING · CALGARY, AB</text>
+  <!-- Stars -->
+  <text x="110" y="360" fill="#facc15" font-size="36" font-family="Arial">★★★★★</text>
+  <text x="310" y="360" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="28" font-weight="600">  4.9 · 90+ Reviews</text>
+  <!-- Services -->
+  <rect x="110" y="390" width="180" height="40" rx="20" fill="rgba(59,130,246,0.15)" stroke="rgba(59,130,246,0.3)" stroke-width="1"/>
+  <text x="200" y="416" text-anchor="middle" fill="#93c5fd" font-family="Arial, sans-serif" font-size="16">Interior Detail</text>
+  <rect x="305" y="390" width="190" height="40" rx="20" fill="rgba(59,130,246,0.15)" stroke="rgba(59,130,246,0.3)" stroke-width="1"/>
+  <text x="400" y="416" text-anchor="middle" fill="#93c5fd" font-family="Arial, sans-serif" font-size="16">Exterior Detail</text>
+  <rect x="510" y="390" width="150" height="40" rx="20" fill="rgba(59,130,246,0.15)" stroke="rgba(59,130,246,0.3)" stroke-width="1"/>
+  <text x="585" y="416" text-anchor="middle" fill="#93c5fd" font-family="Arial, sans-serif" font-size="16">Full Detail</text>
+  <rect x="675" y="390" width="190" height="40" rx="20" fill="rgba(250,204,21,0.1)" stroke="rgba(250,204,21,0.3)" stroke-width="1"/>
+  <text x="770" y="416" text-anchor="middle" fill="#fde68a" font-family="Arial, sans-serif" font-size="16">Ceramic Coating</text>
+  <!-- Phone -->
+  <text x="110" y="490" fill="#3b82f6" font-family="Arial, sans-serif" font-size="32" font-weight="700">(403) 401-9050</text>
+  <text x="110" y="530" fill="#64748b" font-family="Arial, sans-serif" font-size="18">Open 7 days · 8:30am – 7:30pm · We come to you</text>
+  <!-- Bottom accent line -->
+  <rect x="0" y="620" width="1200" height="10" fill="url(#blue)"/>
+</svg>
