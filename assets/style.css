@@ -268,6 +268,23 @@ ul { list-style: none; }
   overflow: hidden;
 }
 
+/* Subtle brand reflection overlay in hero (no baked-in text in the image) */
+.hero::after {
+  content: "HAWK EYE";
+  position: absolute;
+  left: 55%;
+  top: 58%;
+  transform: translate(-50%, -50%) rotate(-12deg);
+  font-size: clamp(42px, 7vw, 92px);
+  letter-spacing: 0.18em;
+  font-weight: 800;
+  color: rgba(255,255,255,0.08);
+  text-shadow: 0 18px 60px rgba(0,0,0,0.45);
+  filter: blur(0.2px);
+  pointer-events: none;
+  z-index: 0;
+}
+
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -287,7 +304,7 @@ ul { list-style: none; }
 }
 
 .hero-photo-1 { background-image: url('images/hero.png'); animation: heroSwapA 14s ease-in-out infinite; }
-.hero-photo-2 { background-image: url('images/hero_2.png'); animation: heroSwapB 14s ease-in-out infinite; }
+.hero-photo-2 { background-image: url('images/hero_hood.png'); animation: heroSwapB 14s ease-in-out infinite; }
 
 @keyframes heroSwapA {
   0%, 45% { opacity: 1; }
@@ -858,6 +875,7 @@ ul { list-style: none; }
 }
 
 .gp-tag {
+  display: none;
   position: relative;
   z-index: 1;
   background: rgba(0,0,0,0.5);
